@@ -1,0 +1,12 @@
+var name = "I have to go to NewYork. New";
+console.log(name.substring(5,8));
+console.log(name.substr(5,4));
+console.log(name);
+console.log();
+console.log(name.replace("New", "Old"));
+console.log(name.replace("Old", "New"));
+console.log(name.replace("new", "Old"));
+console.log(name.replace(/new/i, "Old"));
+console.log(name.replace("Old", "New"));
+console.log(name.replaceAll("New", "Old"));
+console.log(name.replace(/Old/g, "New"));
