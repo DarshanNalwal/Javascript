@@ -11,3 +11,6 @@ let y = 0;
 const b = 1;
 console.log(y);
 console.log(b);
+
+// Throws Uncaught TypeError as we can't change value for const
+b = 2;
